@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="headermain">
+          <div class="headerleft">
+            <div class="headerlefttext">Location Weather <img src="img/map.png"></div>
+          </div>
+          <div class="headerright">
+            <div class="headerrighttext">
+              <ul>
+                <li onclick="getLocation()">Location</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="city1">
+          <span>City : <label id="cityname"></label></span>
+          <div class="clear"></div>
+          <span>Temperature
+            <div class="clear"></div>
+            <label id="icon"></label>
+            <label id="temperature" class="temp"></label>
+          </span>
+          <div class="clear"></div>
+          <span></span>
+        </div>
+        <div id="weather_title"></div>
+        <div class="clear"></div>
+        <div id="map_canvas"></div>
+        <div class="clear"></div>
+      </div>
+
+      <div class="clear"></div>
+
+    </div>
+    <div id="coming_soon">Coming Soon !</div>
+  </body>
+</html>
